@@ -99,6 +99,10 @@ Clone the repository:
 
 git clone https://github.com/rishi-gokul/StuHub
 
+📜APK Link
+
+🔗Download APK  https://drive.google.com/drive/folders/1Vpen313jEPkWwJ7R9Wru95QFlEQ6EtUX
+
 
 Open the project in Android Studio
 
