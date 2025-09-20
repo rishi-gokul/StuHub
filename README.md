@@ -14,19 +14,19 @@
        Handles data storage and retrieval using SQLite.
        
 🔑 Key Files
-✔	StudentDatabaseHelper.java – Manages SQLite database creation and queries.
-✔	StudentEntity.java – Defines the student entity structure.
-✔	NotesEntity.java – Represents notes data for storage.
+✔ StudentDatabaseHelper.java – Manages SQLite database creation and queries.
+✔ StudentEntity.java – Defines the student entity structure.
+✔ NotesEntity.java – Represents notes data for storage.
 
 🎨 UI Layer
         Manages user interaction and presentation using XML layouts and Java Activities.
         
 🔑 Key Files:
-✔	MainActivity.java – Entry point of the application.
-✔	StudentEntryActivity.java – For adding and managing student details.
-✔	CgpaCalculatorActivity.java – For CGPA calculation.
-✔	NotesActivity.java – For creating and managing notes.
-✔	SplashScreenActivity.java – App launch screen.
+✔ MainActivity.java – Entry point of the application.
+✔ StudentEntryActivity.java – For adding and managing student details.
+✔ CgpaCalculatorActivity.java – For CGPA calculation.
+✔ NotesActivity.java – For creating and managing notes.
+✔ SplashScreenActivity.java – App launch screen.
 
 ⚙️ Core Functionality
         Manages app logic, navigation, and utility functions.
