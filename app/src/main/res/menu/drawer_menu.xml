@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard_icon"/>
+
+    <item
+        android:id="@+id/nav_add_student"
+        android:title="Add Student"
+        android:icon="@drawable/add_icon"/>
+
+    <item
+        android:id="@+id/nav_list"
+        android:title="List"
+        android:icon="@drawable/clipboard_list_icon"/>
+
+    <item
+        android:id="@+id/nav_cgpa"
+        android:title="CGPA"
+        android:icon="@drawable/calcul"/>
+
+    <item
+        android:id="@+id/nav_note"
+        android:title="Note"
+        android:icon="@drawable/baseline_assignment_add_24"/>
+
+    <item
+        android:id="@+id/nav_image"
+        android:title="Image"
+        android:icon="@drawable/baseline_add_a_photo_24"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings_icon"/>
+
+
+</menu>

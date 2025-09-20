@@ -1,0 +1,32 @@
+[versions]
+agp = "8.9.0-rc02"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+carUiLib = "2.6.0"
+cameraCore = "1.4.1"
+volley = "1.2.1"
+roomCommonJvm = "2.7.0-beta01"
+scenecore = "1.0.0-alpha03"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+car-ui-lib = { group = "com.android.car.ui", name = "car-ui-lib", version.ref = "carUiLib" }
+camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraCore" }
+volley = { group = "com.android.volley", name = "volley", version.ref = "volley" }
+room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "roomCommonJvm" }
+scenecore = { group = "androidx.xr.scenecore", name = "scenecore", version.ref = "scenecore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

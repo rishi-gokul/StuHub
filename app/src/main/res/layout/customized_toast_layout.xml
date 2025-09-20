@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="20dp"
+    android:padding="10dp" >
+
+
+    <TextView
+        android:id="@+id/toast_text"
+        android:layout_width="424dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    <ImageView
+        android:id="@+id/toast_image"
+        android:layout_width="20dp"
+        android:src="@drawable/warning"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+</LinearLayout>

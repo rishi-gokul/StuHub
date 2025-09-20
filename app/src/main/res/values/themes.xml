@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme for Material3 -->
+    <style name="Base.Theme.StudentApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <!-- For example: -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Custom Theme based on Material3 -->
+    <style name="Theme.StudentApp" parent="Base.Theme.StudentApp">
+        <!-- Customize your dark theme here -->
+        <!-- For example: -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <!-- Customize the status bar color -->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+
+        <!-- Primary color and its variants -->
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/lavender</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary color and its variants -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+
+
+    </style>
+        <!-- Base application theme. -->
+
+</resources>
+
