@@ -1,7 +1,8 @@
 🎓 StuHub App
 
 📖 Overview
-        The StuHub App is an Android application built using Java (Native) and SQLite Database. It provides the following features:
+        The StuHub App is an Android application built using Java (Native) and SQLite Database. 
+It provides the following features:
 ✅ Allows students to enter and manage their academic database.
 ✅ Provides a CGPA Calculator to track academic performance.
 ✅ Includes a Notes Feature for storing personal notes.
