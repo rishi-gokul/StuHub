@@ -1,81 +1,127 @@
-🎓 StuHub App
-
+🎓 StuHub
 📖 Overview
-        The StuHub App is an Android application built using Java (Native) and SQLite Database. 
-It provides the following features:
-✅ Allows students to enter and manage their academic database.
-✅ Provides a CGPA Calculator to track academic performance.
-✅ Includes a Notes Feature for storing personal notes.
-✅ Works completely offline with local database storage.
-✅ Simple and user-friendly UI designed for students.
 
-🏗️ Project Structure:
+StuHub is an Android application built using Java and SQLite.
+It helps students manage their academic information in one place with:
 
+✅ Student database entry and management
+
+✅ CGPA calculator for academic performance tracking
+
+✅ Notes feature for personal reminders
+
+✅ Offline-first support using SQLite
+
+🏗️ Project Structure
 📂 Data Layer
-       Handles data storage and retrieval using SQLite.
-       
-🔑 Key Files
-✔ StudentDatabaseHelper.java – Manages SQLite database creation and queries.
-✔ StudentEntity.java – Defines the student entity structure.
-✔ NotesEntity.java – Represents notes data for storage.
+
+Handles local data storage with SQLite database.
+
+🔑 Key Files:
+
+StudentEntity.java – Defines the student data model
+
+NotesEntity.java – Defines the notes data model
+
+DatabaseHelper.java – Manages SQLite database creation and queries
 
 🎨 UI Layer
-        Manages user interaction and presentation using XML layouts and Java Activities.
-        
+
+Provides a user-friendly interface for interacting with the app.
+
 🔑 Key Files:
-✔ MainActivity.java – Entry point of the application.
-✔ StudentEntryActivity.java – For adding and managing student details.
-✔ CgpaCalculatorActivity.java – For CGPA calculation.
-✔ NotesActivity.java – For creating and managing notes.
-✔ SplashScreenActivity.java – App launch screen.
+
+StudentEntryActivity.java – For adding and managing students
+
+CGPACalculatorActivity.java – For CGPA calculations
+
+NotesActivity.java – For creating and managing notes
+
+SplashScreenActivity.java – App entry point with animation
 
 ⚙️ Core Functionality
-        Manages app logic, navigation, and utility functions.
-🚀 Features & Implementation
 
-📜 Student Database Management
-✔ Add, edit, and delete student records.
-✔ Store details securely in local SQLite database.
+Manages logic, navigation, and utility functions.
+
+🔑 Key Files:
+
+MainActivity.java – Central hub for navigation
+
+Utils.java – Utility/helper methods
+
+🚀 Features & Implementation
+📚 Student Database Management
+
+✔ Add, edit, delete, and view student details
+
+✔ Store data persistently with SQLite
 
 📊 CGPA Calculator
-✔ Input semester grades and instantly calculate CGPA.
-✔ Save results for future reference.
+
+✔ Input semester grades to calculate CGPA
+
+✔ Save and retrieve results for future reference
 
 📝 Notes Feature
-✔ Create and manage academic notes.
-✔ Stores notes locally for offline access.
 
-💾 Offline Support
-✔ Works without internet using SQLite.
-✔ Lightweight and fast.
+✔ Create, edit, and delete notes
 
-🎨 UI & UX
-✔ Clean, student-friendly interface.
-✔ Simple navigation between modules.
+✔ Store academic or personal reminders
+
+💾 Offline-First Storage
+
+✔ All data is stored locally in SQLite
+
+✔ App works fully offline without internet
+
+🎨 UI Enhancements
+
+✔ Clean and minimal UI design
+
+✔ Smooth transitions between screens
+
+✔ Simple navigation flow for students
 
 ⚡ Setup & Installation
-
 🔧 Prerequisites
+
 Ensure you have the following installed:
+
 ✅ Android Studio (latest version)
-✅ Java (Android Native Development)
-✅ SQLite (built-in with Android)
+
+✅ Java (Android Native)
+
+✅ SQLite
 
 📲 How to Run
-Clone the repository or extract the ZIP file:
+
+Clone the repository:
+
 git clone https://github.com/rishi-gokul/StuHub
-Open the project in Android Studio, build, and run on a device/emulator.
+
+
+Open the project in Android Studio
+
+Build & Run on an emulator or physical device
 
 🛠️ Technologies Used
-☕ Java (Android Native)
-🗄️ SQLite Database
-🎨 XML (UI Layouts)
-⚡ Android Studio
 
-📜APK Link
-🔗 https://drive.google.com/drive/folders/1Vpen313jEPkWwJ7R9Wru95QFlEQ6EtUX 
+☕ Java (Android Native)
+
+🗄️ SQLite (Local Storage)
+
+🎨 XML-based UI
+
+🧩 Android Studio
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use and modify!
 
 📧 Contact
-     For any queries or support, reach out to:
-📩 rishikumargokulnath@gmail.com
-🔗 LinkedIn Profile - https://www.linkedin.com/in/rishikumar-velmurugan-951789360
+
+For queries or support, reach out:
+
+📩 gokulnathrishikumar@gmail.com
+
+🔗 LinkedIn Profile--https://www.linkedin.com/in/rishikumar-velmurugan-951789360
